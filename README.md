@@ -39,6 +39,26 @@
 6. Responsabilidade;  <br/>
 7. Comprometimento;  <br/>
 
+### Contribuições de projetos:
+> Equipe:  <br/>
+ > Ícaro Victor: https://github.com/icarus09 (Contribuição no projeto Momment) <br/>
+ > Jesus Abrahão: https://github.com/jesusadadfilho  (Contribuição nos projetos AvantiBET, ForcaX e Momment); <br/>
+ > Marcelo Alves: https://github.com/MarceloxAlves (Contribuição nos projetos AvantiBET, ForcaX e Momment); <br/> 
+ > Mayelle Carvalho: https://github.com/MayelleCarvalho  (Contribuição nos projetos AvantiBET, ForcaX e Momment); <br/>
+
+#### AvantiBET (Apicativo de aposta)
+> https://github.com/MarceloxAlves/AvantiBet  <br/>
+> Projeto da disciplina de Programação Corporativa;  <br/>
+ 
+#### ForcaX (Jogo da Forca)
+> https://github.com/MarceloxAlves/ForcaX  <br/>
+> Projeto da disciplina de Programação Corporativa.  <br/>
+
+#### Momment (Sistema de gerenciamento de eventos científicos)
+> https://github.com/MarceloxAlves/moment-api <br/>
+> http://imoment.herokuapp.com  <br/>
+> Projeto final da disciplina de Programação Corporativa.  <br/>
+
 ### Análise SWOT da minha vida:
 #### **Pontos Fortes:** 
 > 1. Meus Valores;  <br/>
@@ -62,3 +82,6 @@
 > 2. Distrações causadas pelas redes sociais e facilidades do mundo tecnológico; <br/>
 > 3. Problemas políticos e econômicos do país e do mundo; <br/>
 > 4. Mercado concorrido e em constante mudança. <br/>
+
+![Perfil](https://avatars1.githubusercontent.com/u/38570623?s=96&v=4) <br/>
+  
