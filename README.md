@@ -28,9 +28,6 @@
 > Desenvolvimento Web; <br/>
 > Programação em Python; <br/>
 
-### Expectativas:
-> Ascensão ao mercado de trabalho através do meu exforço e conhecimento, para atingir minha missão e construir uma estabilidade financeira.
-
 ### Meus Valores:
 1. Disciplina;  <br/>
 2. Auto motivação;  <br/>
@@ -60,28 +57,20 @@
 > Projeto final da disciplina de Programação Corporativa.  <br/>
 
 ### Análise SWOT da minha vida:
-#### **Pontos Fortes:** 
-> 1. Meus Valores;  <br/>
-> 2. Minha vontade de crescer;  <br/>
-> 3. Meus desejos e anseios.  <br/>
+| **Pontos Fortes**                                 | **Pontos Fracos**                                   |
+|:-------------------------------------------------:|:---------------------------------------------------:|
+| Meus Valores                                      | Comodidade                                          |
+| Vontade de crescer                                | Ansiedade                                           |
+| Desejos e anseios                                 | Distração                                           |
+| -                                                 | Procastinação                                       |
+| **Oportunidades**                                 | **Ameaças**                                         |
+| Programas de Insentivo à Iniciação Científica     | Problemas sociais                                   |
+| Projetos e programas de extensões                 | Distrações causadas pelas redes sociais             |
+| Programas de bolsas de estudos                    | Problemas Políticos e econômicos do país e do mundo |
+| Tecnologias que facilitam estudo                  | Mercado concorrido e em constante mudança           |
 
-#### **Pontos Fracos:**
-> 1. Comodidade;  <br/>
-> 2. Ansiedade;  <br/>
-> 3. Distração;  <br/>
-> 4. Procastinação.  <br/>
 
-#### Oportunidades: 
-> 1. Programas de Insentivo à Iniciação Científica; <br/>
-> 2. Projetos e programas de extensões; <br/>
-> 3. Programas e projetos para financiamento e doação de bolsa de cursos; <br/>
-> 4. Tecnologias que facilitam o estudo. <br/>
-
-#### Ameaças: 
-> 1. Problemas sociais (desigualdade social, falta de segurança, falta de infraestrutura, etc.); <br/>
-> 2. Distrações causadas pelas redes sociais e facilidades do mundo tecnológico; <br/>
-> 3. Problemas políticos e econômicos do país e do mundo; <br/>
-> 4. Mercado concorrido e em constante mudança. <br/>
-
+### Expectativas futuras:
+> Ascensão ao mercado de trabalho através do meu exforço e conhecimento, para atingir minha missão e construir uma estabilidade financeira. <br/>
 ![Perfil](https://avatars1.githubusercontent.com/u/38570623?s=96&v=4) <br/>
   
