@@ -2,7 +2,7 @@
 > Idade: 22 Anos; <br/>
 > Telegram: (86) 9 9534-6840
 > Email: carvalhomayelle@gmail.com <br/>
-> Meddium: https://medium.com/@mayellecarvalhotdb
+> Medium: https://medium.com/@mayellecarvalhotdb  <br/>
 > Estagiária na Cordenação Especial de Tecnologia da Informação (CETI) - Secretaria de Finanças (SemF). <br/>
 > 
 > ![Perfil](https://cdn.pixabay.com/photo/2015/08/27/09/22/banner-909710__340.jpg) <br/>
