@@ -7,6 +7,9 @@ class PostForm(ModelForm):
         model = Post
         fields = '__all__'
 
-
-    def is_valid(self):
-        pass
+    def clean(self):
+        cleaned_data = super().clean()
+        email = cleaned_data.get('email')
+        if(not email.__str__().__contains__('@')):
+            mensagem = 'Email inválido, por favor tente novamente!'
+            self.add_error('email', mensagem)

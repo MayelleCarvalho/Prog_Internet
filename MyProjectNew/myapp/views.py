@@ -1,3 +1,5 @@
+import datetime
+
 from django.shortcuts import render
 
 # Create your views here.
@@ -8,7 +10,7 @@ from myapp.models import Post
 
 def list_posts(request):
 
-    posts = Post.objects.all()
+    posts = Post.objects.order_by('-date_published')
     return render(request, "list_posts.html", {'posts' : posts})
 
 
@@ -20,6 +22,7 @@ def add_post(request):
         #age_int = form.cleaned_data['age']
         if form.is_valid():
             model_instance = form.save(commit=False)
+            model_instance.date_published = datetime.datetime.now()
             model_instance.save()
             return redirect('list_posts')
     else:
