@@ -18,13 +18,26 @@ def add_post(request):
 
     if request.method == "POST":
         form = PostForm(request.POST)
-        #age = form['age']
-        #age_int = form.cleaned_data['age']
         if form.is_valid():
             model_instance = form.save(commit=False)
             model_instance.date_published = datetime.datetime.now()
             model_instance.save()
             return redirect('list_posts')
+        else:
+            return render(request, "add_post.html", {'form': form})
     else:
         form = PostForm()
         return render(request, "add_post.html", {'form' : form})
+
+def edit_post(request, post_id):
+
+    post_a_editar = Post.objects.get(id = post_id)
+    form = PostForm(request.POST, instance=post_a_editar)
+    if form.is_valid():
+        model_instance = form.save(commit=False)
+        model_instance.date_published = datetime.datetime.now()
+        model_instance.save()
+        return redirect('list_posts')
+    else:
+        return render(request, "edit_zx3cv6bj kç-.*/65add_post.html",
+                  {'form' : form})
