@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block body %}
+    <div class="card" align="center">
+        <img class="card-img-top" width="100%" src="static/img/navigation.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+            <p class="card-text">{{post.text|linebreaksbr}}</p>
+            {{post.email}}
+            <a href="{% url 'edit_post' post.id %}" class="btn btn-primary btn-lg btn-block">Editar</a>
+        </div>
+        <div class="card-footer text-muted">
+            {{post.date_published}}
+        </div>
+        <hr>
+    </div>
+{% endblock %}

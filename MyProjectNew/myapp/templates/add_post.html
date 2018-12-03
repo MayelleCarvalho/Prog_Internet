@@ -1,9 +1,10 @@
 {% extends "base.html" %}
 {% block body %}
-<form method="post">
+<h1 align="center">Nova postagem</h1>
+<form method="post" class="post-form">
     {% csrf_token %}
     {{ form }}
-<input type="submit">
+    <br><button type="button" class="btn btn-primary btn-lg btn-block">Salvar</button>
 </form>
 {% endblock %}
 

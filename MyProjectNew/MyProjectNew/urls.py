@@ -21,4 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('add_post/new', views.add_post, name = 'add_post'),
     path('', views.list_posts, name = 'list_posts'),
+    path('post/edit/<int:post_id>/', views.edit_post, name = 'edit_post'),
+    path('post/detail/<int:post_id>/', views.detail_post, name = 'detail_post'),
 ]
