@@ -46,21 +46,28 @@ def account_detail(request, id):
     elif request.method == 'PATCH':
         account_serializer = AccountSerializer(account, data=request.data, partial=True)
 
-        if account_serializer.is_valid():
-            if account_serializer.validated_data:
-                saldo = account.__getattribute__('balance') - account_serializer.data.__getattribute__('balance')
-                print(saldo)
-                print(account.__getattribute__('balance'))
-                print(request.data__getitem__('balance'))
-                if saldo > 0:
-                    account_serializer.data.__setattr__('balance', saldo)
-                    account_serializer.save()
-                    print('entrou')
-                    return Response(status=status.HTTP_202_ACCEPTED)
-                elif saldo == 0:
-                    raise serializers.ValidationError("O Saldo não pode ser zerado")
-                elif saldo < 0 :
-                    raise serializers.ValidationError("Saldo insuficiente")
+        saldo = account.__getattribute__('balance') - request.data['balance']
+
+        print(saldo)
+        print(account.__getattribute__('balance'))
+        print(request.data['balance'])
+
+        if saldo > 0:
+            if account_serializer.is_valid():
+                account_serializer.validated_data
+                account_serializer.data['balance'] = saldo
+                print(account_serializer.validated_data)
+                account_serializer.save()
+            # if account_serializer.is_valid():
+            #     account_serializer.save()
+                print('entrou')
+                return Response(status=status.HTTP_202_ACCEPTED)
+            return Response(account_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        elif saldo == 0:
+            raise serializers.ValidationError("O Saldo não pode ser zerado")
+        elif saldo < 0:
+            raise serializers.ValidationError("Saldo insuficiente")
+        
 
 
 #

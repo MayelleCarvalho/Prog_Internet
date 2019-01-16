@@ -20,4 +20,5 @@ class AccountSerializer(serializers.ModelSerializer):
         if value != None:
             raise serializers.ValidationError("O campo data é automático")
         return value
+    
 
