@@ -5,9 +5,19 @@ Author: Gaston C. Hillar - Twitter.com/gastonhillar
 Publisher: Packt Publishing Ltd. - http://www.packtpub.com
 """
 from django.urls import path
+from rest_framework.urlpatterns import format_suffix_patterns
+
 from games import views
 
 urlpatterns = [
-    path('games/', views.game_list),
-    path('games/<int:pk>/', views.game_detail),
+    path('', views.ApiRoot.as_view(), name=views.ApiRoot.name),
+    path('scores/', views.ScoreList.as_view(), name=views.ScoreList.name),
+    path('scores/<int:id>/', views.ScoreDetail.as_view(), name=views.ScoreDetail.name),
+    path('games/', views.GameList.as_view(), name=views.GameList.name),
+    path('games/<int:id>/', views.GameDetail.as_view(), name=views.GameDetail.name),
+    path('players/', views.PlayerList.as_view(), name=views.PlayerList.name),
+    path('players/<int:id>/', views.PlayerDetail.as_view(), name=views.PlayerDetail.name),
+    path('game-categories/', views.GameCategoryList.as_view(), name=views.GameCategoryList.name),
+    path('game-categories/<int:id>/', views.GameCategoryDetail.as_view(), name=views.GameCategoryDetail.name),
 ]
+

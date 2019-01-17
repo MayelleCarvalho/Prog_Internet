@@ -46,5 +46,5 @@ class Score(models.Model):
     player=models.ForeignKey(Player,related_name='scores', on_delete=models.CASCADE)
     game=models.ForeignKey(Game, on_delete=models.CASCADE)
 
-    class Meta:        
+    class Meta:
         ordering = ('-score',)
