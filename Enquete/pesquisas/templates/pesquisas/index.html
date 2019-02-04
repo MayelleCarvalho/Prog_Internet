@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ENQUETE</title>
+</head>
+<body>
+    {% if lista_questoes_recentes %}
+        <ul>
+            {% for quastao in lista_questoes_recentes %}
+                <li><a href="{% url 'detalhe' questao.id %}">{{ questao.texto_questao }}</a></li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Não tem nenhuma enquete disponível.</p>
+    {% endif %}
+</body>
+</html>

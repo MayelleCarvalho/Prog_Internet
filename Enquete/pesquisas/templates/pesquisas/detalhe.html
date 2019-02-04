@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enquete</title>
+</head>
+<body>
+    <h1>{{ questao.texto_questao }}</h1>
+    <ul>
+        {% for opcao in questao.opcao.set.all %}
+            <li>{{ opcao.texto_opcao }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
